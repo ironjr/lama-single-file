@@ -16,9 +16,17 @@ Of course you can install PyTorch from the [official page](https://pytorch.org/g
     ```bash
     wget https://raw.githubusercontent.com/ironjr/simple-lama/main/lama.py
     ```
-4. Prepare your image: Numpy array of size `(H, W, 3)` and scale `[0, 255]`.
-5. Load LaMa in one-liner: `from lama import LaMa; model = LaMa('cuda:0')`.
-6. Inpaint in one-liner: `inpainted = model(masked, mask)`.
+3. Prepare your image: Numpy array of size `(H, W, 3)` and scale `[0, 255]`.
+4. Load LaMa in one-(two-)liner.
+    ```python
+    from lama import LaMa
+    
+    model = LaMa('cuda:0')
+    ```
+5. Inpaint in one-liner.
+   ```python
+   inpainted = model(masked, mask)
+   ```
 
 Done!
 
