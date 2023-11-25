@@ -44,7 +44,7 @@ def handle_error(model_path: str, model_md5: str, e: str) -> None:
     else:
         logging.error(
             f"Failed to load model {model_path}, please submit an issue at "
-            f"https://github.com/Sanster/lama-cleaner/issues and include a "
+            f"https://github.com/ironjr/simple-lama/issues and include a "
             f"screenshot of the error:\n{e}")
     exit(-1)
 
