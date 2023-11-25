@@ -2,6 +2,8 @@
 
 Your LaMa inpainter in a single file.
 
+![demo.gif](demo.gif)
+
 ### Prerequisite
 
 ```bash
