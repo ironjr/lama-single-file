@@ -1,4 +1,4 @@
-# 🦙 LaMa-Single-File
+# 🦙 LaMa Single File
 
 Your LaMa inpainter in a single file.
 
